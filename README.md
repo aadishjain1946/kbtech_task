@@ -9,7 +9,9 @@
     ### b)Delivery boy signup/login-:
                   use http://localhost:4560/deliverylogin with request body {'username':'test','password':'test'}
                  for new user it automatically update database and return token and for existing user it simply return token.
-#### After login save the token and use that token for further request in request headers as {x-csrf-token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiIxMjM0NTY3ODkiLCJpYXQiOjE1Njc5MzI1NzQsImV4cCI6MTU2ODAxODk3NH0.CfD2HkaxukFfp-2_eVCCeCnH5QYaNLwnC88ofZJvQeg"} 
+#### After login save the token and use that token for further request in request headers as 
+
+{x-csrf-token:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiIxMjM0NTY3ODkiLCJpYXQiOjE1Njc5MzI1NzQsImV4cCI6MTU2ODAxODk3NH0.CfD2HkaxukFfp-2_eVCCeCnH5QYaNLwnC88ofZJvQeg"} 
 
 # Customer
 1. To place order
